@@ -1,6 +1,6 @@
 provider "null" {}
 
-resource "null_resource" "color_message_semantic_version_error" {
+resource "null_resource" "color_message_semantic_version_error2" {
   count = 6
 
   provisioner "local-exec" {
